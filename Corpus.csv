@@ -1,0 +1,144 @@
+id,titre,auteur,co_auteurs,date,url,texte,type
+1,[D] Self-Promotion Thread,AutoModerator,,2025-12-02 04:15:29,https://www.reddit.com/r/MachineLearning/comments/1pbxkt2/d_selfpromotion_thread/,"Please post your personal projects, startups, product placements, collaboration needs, blogs etc.
+
+Please mention the payment and pricing requirements for products and services.
+
+Please do not post link shorteners, link aggregator websites , or auto-subscribe links.
+
+\--
+
+Any abuse of trust will lead to bans.
+
+Encourage others who create new posts for questions to post here instead!
+
+Thread will stay alive until next one so keep posting after the date in the title.
+
+\--
+
+Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to promote their work by not spamming the main threads.",Reddit
+2,[D] Monthly Who's Hiring and Who wants to be Hired?,AutoModerator,,2025-12-01 04:30:53,https://www.reddit.com/r/MachineLearning/comments/1pb25zo/d_monthly_whos_hiring_and_who_wants_to_be_hired/,"**For Job Postings** please use this template
+
+>Hiring: \[Location\], Salary:\[\], \[Remote | Relocation\], \[Full Time | Contract | Part Time\]    and \[Brief overview, what you're looking for\]
+
+**For Those looking for jobs** please use this template
+
+>Want to be Hired: \[Location\], Salary Expectation:\[\], \[Remote | Relocation\], \[Full Time | Contract | Part Time\]  Resume: \[Link to resume\] and \[Brief overview, what you're looking for\]
+
+&#x200B;
+
+Please remember that this community is geared towards those with experience.",Reddit
+3,Ilya Sutskever is puzzled by the gap between AI benchmarks and the economic impact [D],we_are_mammals,,2025-12-14 03:33:21,https://www.reddit.com/r/MachineLearning/comments/1pm2zsb/ilya_sutskever_is_puzzled_by_the_gap_between_ai/,"In a recent interview, Ilya Sutskever said: 
+
+> This is one of the very confusing things about the models right now. How to reconcile the fact that they are doing so well on evals... And you look at the evals and you go ""Those are pretty hard evals""... They are doing so well! But the economic impact seems to be dramatically behind.
+
+I'm sure Ilya is familiar with the idea of ""leakage"", and he's still puzzled. So how do *you* explain it?
+
+*Edit:* `GPT-5.2 Thinking` scored 70% on GDPval, meaning it outperformed industry professionals on economically valuable, well-specified knowledge work spanning 44 occupations.",Reddit
+4,"[D] Causal ML, did a useful survey or textbook emerge?",TajineMaster159,,2025-12-14 13:41:17,https://www.reddit.com/r/MachineLearning/comments/1pmd5ul/d_causal_ml_did_a_useful_survey_or_textbook_emerge/,"Hi, asking if a unified resource emerged on Causal ML. To be clear, I am asking specifically (and kindly) for a coherent and comparative discussion of some of the more recent advances (10y). I am hoping for a research survey/primer or a graduate textbook. 
+
+It would be ideal that the resource situates causal ML within the better understood and widely adopted class of causal inference tools (e.g endogenous causal identification from  econometrics).",Reddit
+5,[D] Do Some Research Areas Get an Easier Accept? The Quiet Biases Hiding in ICLR's Peer Review,team-daniel,,2025-12-13 22:30:32,https://www.reddit.com/r/MachineLearning/comments/1plwkqz/d_do_some_research_areas_get_an_easier_accept_the/,"Hey all,
+
+So I am sure you already know the ICLR drama this year + since reciprocal reviewing, authors have struggled with reviews. Well, I scraped public OpenReview metadata for ICLR 2018–2025 and did a simple analysis of acceptance vs (i) review score, (ii) primary area, and (iii) year to see if any hidden biases exist within the process.
+
+Check out my[ **blogpost here** ](https://daniel-bethell.co.uk/posts/peer-review-biases/)for the full breakdown.
+
+TL;DR
+
+Across 2018–2025, acceptance at ICLR is overwhelmingly driven by review score (obviously): the empirical heatmap shows the probability of acceptance given a mean review score rises sharply with score in every area, with notable differences between areas that mainly appear in the mid-score “decision boundary” region rather than at the extremes. For example, at an average score of 6.0, ‘Robotics’ and ‘LLMs’ have higher acceptance rates. At an average score of 6.5, ’time series’ and ‘probabilistic methods’ see a notably lower acceptance rate.
+
+https://preview.redd.it/20rpydgjh17g1.png?width=1249&format=png&auto=webp&s=e22862df8a46985518508b4237dde697e7882f46
+
+When we zoom out to the AI ’ecosystem’ dynamics, previously it could be argued that ‘Robotics’ and ‘LLMs’ may have higher acceptance rates because they are hot topics and thus want to be showcased more in the conference. But this image below shows that this may not be the case. Areas like ‘XAI’ and ‘PINNs’ are just as popular to ‘Robotics’ and ‘LLMs' but don’t have the same excess acceptance rate as them.
+
+https://preview.redd.it/6h1b6j4kh17g1.png?width=1000&format=png&auto=webp&s=154aec624b27e77895b8a4445a7b6af59162a5a8
+
+Overall, my analysis shows for some strange reason, which we can’t prove as to why, some sub-areas have a higher chance of getting into ICLR just because of the area alone. We showed it was not because of area growth, but due to an unexplainable ‘bias’ towards those fields.",Reddit
+6,[D] On the linear trap of autoregression,Chinese_Zahariel,,2025-12-14 13:47:08,https://www.reddit.com/r/MachineLearning/comments/1pmd9n2/d_on_the_linear_trap_of_autoregression/,"Hi, during a casual conversation with a colleague, he mentioned the concept of the linearity trap, which seems to stem from the autoregressive feature of LLMs. However, he didn't seem to have much domain-specific knowledge, so I didn't get a good explanation; the problem just lingered in my mind, which appears to be a cause for LLM's hallucination and error accumulation. 
+
+I'd like to know if this is a real problem that is worth investigating. If so, are there any promising directions? Thanks in advance.",Reddit
+7,"[R] Efficient Virtuoso: A Latent Diffusion Transformer for Trajectory Planning (Strong results on Waymo Motion, trained on single RTX 3090)",Pale_Location_373,,2025-12-14 00:46:35,https://www.reddit.com/r/MachineLearning/comments/1plzkzu/r_efficient_virtuoso_a_latent_diffusion/,"Hi r/MachineLearning comunity,
+
+I am an independent researcher focused on Autonomous Vehicle (AV) planning. I am releasing the paper, code, and weights for a project called **Efficient Virtuoso**. It is a conditional latent diffusion model (LDM) for generating multi-modal, long-horizon driving trajectories. 
+
+The main goal was to see how much performance could be extracted from a generative model using a single consumer GPU (RTX 3090), rather than relying on massive compute clusters.
+
+**Paper (arXiv):** https://arxiv.org/abs/2509.03658
+**Code (GitHub):** https://github.com/AntonioAlgaida/DiffusionTrajectoryPlanner
+
+### The Core Problem
+Most standard motion planners use deterministic regression (Behavioral Cloning) to predict a single path. In urban environments, like unprotected left turns, there is rarely one ""correct"" path. This often leads to ""mode averaging"" where the model produces an unsafe path in the middle of two valid maneuvers. Generative models like diffusion handle this multimodality well but are usually too slow for real-time robotics.
+
+### Technical Approach
+To keep the model efficient while maintaining high accuracy, I implemented the following:
+
+1. **PCA Latent Space:** Instead of running the diffusion process on the raw waypoints (160 dimensions for 8 seconds), the trajectories are projected into a 16-dimensional latent space via PCA. This captures over 99.9 percent of the variance and makes the denoising task much easier.
+2. **Transformer-based StateEncoder:** A Transformer architecture fuses history, surrounding agent states, and map polylines into a scene embedding. This embedding conditions a lightweight MLP denoiser.
+3. **Conditioning Insight:** I compared endpoint-only conditioning against a ""Sparse Route"" (a few breadcrumb waypoints). The results show that a sparse route is necessary to achieve tactical precision in complex turns.
+
+### Results
+The model was tested on the Waymo Open Motion Dataset (WOMD) validation split.
+
+* **minADE:** 0.2541 meters
+* **minFDE:** 0.5768 meters
+* **Miss Rate (@2m):** 0.03
+
+For comparison, a standard Behavioral Cloning MLP baseline typically reaches a minADE of around 0.81 on the same task. The latent diffusion approach achieves significantly better alignment with expert driving behavior.
+
+### Hardware and Reproducibility
+The entire pipeline (data parsing, PCA computation, and training) runs on a single **NVIDIA RTX 3090 (24GB VRAM)**. The code is structured to be used by other independent researchers who want to experiment with generative trajectory planning without industrial-scale hardware.
+
+I would appreciate any feedback on the latent space representation or the conditioning strategy. I am also interested in discussing how to integrate safety constraints directly into the denoising steps.",Reddit
+8,[D] Video/Image genAI startup coding interview advise.,noob_simp_phd,,2025-12-14 07:32:20,https://www.reddit.com/r/MachineLearning/comments/1pm7dbt/d_videoimage_genai_startup_coding_interview_advise/,"Hi, 
+
+  
+I am applying for a video/image generation startup, and they have set up a coding interview. The recruiter was a bit vague and said they might ask you to code the transformer model. 
+
+  
+Can you suggest what should I prepare? So far I am planning to code a toy version of the following:
+
+LLM basics:
+
+1. Tokenization (BPE)
+
+2. Self-attention (multi-headed with masking)
+
+3. FFN + layernorm
+
+4. Cross-attention
+
+5. Decoding methods (top-p, top-k, multinomial)
+
+6. LoRA basics
+
+  
+Diffusion: 
+
+1. DDPM basics
+
+2. Transformer-based diffusion
+
+  
+Anything I am missing I should definitely prepare?",Reddit
+9,[D] How does Claude perform so well without any proprietary data?,apidevguy,,2025-12-13 08:54:04,https://www.reddit.com/r/MachineLearning/comments/1plg1gs/d_how_does_claude_perform_so_well_without_any/,"Google has massive proprietary assets (Search, Gmail, Docs, YouTube).
+
+Microsoft/OpenAI has GitHub, Bing, Office, and enterprise data.
+
+xAI has direct access to Twitter/X's social data.
+
+Meta has facebook data. 
+
+Anthropic (Claude) however, doesn't appear to own or control any comparably large proprietary data sources. Yet Claude often scores extremely well on reasoning and tasks, many times outperforming other company models. 
+
+How Anthropic (Claude) is able to beat their competitiors in model quality?",Reddit
+10,[P] Teaching AI to Beat Crash Bandicoot with Deep Reinforcement Learning,AgeOfEmpires4AOE4,,2025-12-14 14:15:09,https://youtube.com/watch?v=jEOvbiDOtkk&si=uKFS-9QUahVjlhDN,"Hello everyone!!!! I'm uploading a new version of my training environment and it already includes Street Fighter 4 training on the Citra (3DS) emulator. This is the core of my Street Fighter 6 training!!!!! If you want to take a look and test my environment, the link is [https://github.com/paulo101977/sdlarch-rl](https://github.com/paulo101977/sdlarch-rl)",Reddit
+11,From Cutting Planes Algorithms to Compression Schemes and Active Learning,Liva Ralaivola,Ugo Louche,2015-08-12T16:46:29Z,http://arxiv.org/abs/1508.02986v1,"From Cutting Planes Algorithms to Compression Schemes and Active Learning Cutting-plane methods are well-studied localization(and optimization) algorithms. We show that they provide a natural framework to perform machinelearning ---and not just to solve optimization problems posed by machinelearning--- in addition to their intended optimization use. In particular, theyallow one to learn sparse classifiers and provide good compression schemes.Moreover, we show that very little effort is required to turn them intoeffective active learning methods. This last property provides a generic way todesign a whole family of active learning algorithms from existing passivemethods. We present numerical simulations testifying of the relevance ofcutting-plane methods for passive and active learning tasks.",Arxiv
+12,A State-of-the-Art Review on IoT botnet Attack Detection,Zainab Al-Othman,"Mouhammd Alkasassbeh,Sherenaz AL-Haj Baddar",2020-10-02T12:48:54Z,http://arxiv.org/abs/2010.13852v1,"A State-of-the-Art Review on IoT botnet Attack Detection The Internet as we know it Today, comprises several fundamental interrelated networks, among which is the Internet of Things (IoT). Despite their versatility, several IoT devices are vulnerable from a security perspective, which renders them as a favorable target for multiple security breaches, especially botnet attacks. In this study, the conceptual frameworks of IoT botnet attacks will be explored, alongside several machinelearning based botnet detection techniques. This study also analyzes and contrasts several botnet Detection techniques based on the Bot-IoT Dataset; a recent realistic IoT dataset that comprises state-of-the-art IoT botnet attack scenarios.",Arxiv
+13,Survey: Understand the challenges of MachineLearning Experts using Named EntityRecognition Tools,Florian Freund,"Philippe Tamla,Matthias Hemmje",2025-01-27T15:04:00Z,http://arxiv.org/abs/2501.16112v1,"Survey: Understand the challenges of MachineLearning Experts using Named EntityRecognition Tools This paper presents a survey based on Kasunic's survey research methodology to identify the criteria used by Machine Learning (ML) experts to evaluate Named Entity Recognition (NER) tools and frameworks. Comparison and selection of NER tools and frameworks is a critical step in leveraging NER for Information Retrieval to support the development of Clinical Practice Guidelines. In addition, this study examines the main challenges faced by ML experts when choosing suitable NER tools and frameworks. Using Nunamaker's methodology, the article begins with an introduction to the topic, contextualizes the research, reviews the state-of-the-art in science and technology, and identifies challenges for an expert survey on NER tools and frameworks. This is followed by a description of the survey's design and implementation. The paper concludes with an evaluation of the survey results and the insights gained, ending with a summary and conclusions.",Arxiv
+14,First Place Solution of KDD Cup 2021 & OGB Large-Scale Challenge Graph Prediction Track,Chengxuan Ying,"Mingqi Yang,Shuxin Zheng,Guolin Ke,Shengjie Luo,Tianle Cai,Chenglin Wu,Yuxin Wang,Yanming Shen,Di He",2021-06-15T16:45:31Z,http://arxiv.org/abs/2106.08279v3,"First Place Solution of KDD Cup 2021 & OGB Large-Scale Challenge Graph Prediction Track In this technical report, we present our solution of KDD Cup 2021 OGB Large-Scale Challenge - PCQM4M-LSC Track. We adopt Graphormer and ExpC as our basic models. We train each model by 8-fold cross-validation, and additionally train two Graphormer models on the union of training and validation sets with different random seeds. For final submission, we use a naive ensemble for these 18 models by taking average of their outputs. Using our method, our team MachineLearning achieved 0.1200 MAE on test set, which won the first place in KDD Cup graph prediction track.",Arxiv
+15,Goal-Oriented UAV Communication Design and Optimization for Target Tracking: A MachineLearning Approach,Wenchao Wu,"Yanning Wu,Yuanqing Yang,Yansha Deng",2024-08-08T10:41:11Z,http://arxiv.org/abs/2408.04358v1,"Goal-Oriented UAV Communication Design and Optimization for Target Tracking: A MachineLearning Approach To accomplish various tasks, safe and smooth control of unmanned aerial vehicles (UAVs) needs to be guaranteed, which cannot be met by existing ultra-reliable low latency communications (URLLC). This has attracted the attention of the communication field, where most existing work mainly focused on optimizing communication performance (i.e., delay) and ignored the performance of the task (i.e., tracking accuracy). To explore the effectiveness of communication in completing a task, in this letter, we propose a goal-oriented communication framework adopting a deep reinforcement learning (DRL) algorithm with a proactive repetition scheme (DeepP) to optimize C&C data selection and the maximum number of repetitions in a real-time target tracking task, where a base station (BS) controls a UAV to track a mobile target. The effectiveness of our proposed approach is validated by comparing it with the traditional proportional integral derivative (PID) algorithm.",Arxiv
+16,Benchmarking Machine Learning Algorithms for Adaptive Quantum Phase Estimation with Noisy Intermediate-Scale Quantum Sensors,Nelson Filipe Costa,"Yasser Omar,Aidar Sultanov,Gheorghe Sorin Paraoanu",2021-08-16T09:10:32Z,http://arxiv.org/abs/2108.06978v2,"Benchmarking Machine Learning Algorithms for Adaptive Quantum Phase Estimation with Noisy Intermediate-Scale Quantum Sensors Quantum phase estimation is a paradigmatic problem in quantum sensing andmetrology. Here we show that adaptive methods based on classical machinelearning algorithms can be used to enhance the precision of quantum phase estimation when noisy non-entangled qubits are used as sensors. We employ the Differential Evolution (DE) and Particle Swarm Optimization (PSO) algorithms to this task and we identify the optimal feedback policies which minimize the Holevo variance. We benchmark these schemes with respect to scenarios that include Gaussian and Random Telegraph fluctuations as well as reduced Ramsey-fringe visibility due to decoherence. We discuss their robustness against noise in connection with real experimental setups such as Mach-Zehnder interferometry with optical photons and Ramsey interferometry in trapped ions,superconducting qubits and nitrogen-vacancy (NV) centers in diamond.",Arxiv
+17,A Survey on Recent Advancements for AI Enabled Radiomics in Neuro-Oncology,Syed Muhammad Anwar,"Tooba Altaf,Khola Rafique,Harish RaviPrakash,Hassan Mohy-ud-Din,Ulas Bagci",2019-10-16T16:50:02Z,http://arxiv.org/abs/1910.07470v1,"A Survey on Recent Advancements for AI Enabled Radiomics in Neuro-Oncology Artificial intelligence (AI) enabled radiomics has evolved immensely especially in the field of oncology. Radiomics provide assistancein diagnosis of cancer, planning of treatment strategy, and predictionof survival. Radiomics in neuro-oncology has progressed significantly inthe recent past. Deep learning has outperformed conventional machinelearning methods in most image-based applications. Convolutional neu-ral networks (CNNs) have seen some popularity in radiomics, since theydo not require hand-crafted features and can automatically extract fea-tures during the learning process. In this regard, it is observed that CNNbased radiomics could provide state-of-the-art results in neuro-oncology,similar to the recent success of such methods in a wide spectrum ofmedical image analysis applications. Herein we present a review of the most recent best practices and establish the future trends for AI enabled radiomics in neuro-oncology.",Arxiv
+18,Universal Machine Learning Interatomic Potentials are Ready for Phonons,Antoine Loew,"Dewen Sun,Hai-Chen Wang,Silvana Botti,Miguel A. L. Marques",2024-12-21T09:28:28Z,http://arxiv.org/abs/2412.16551v2,"Universal Machine Learning Interatomic Potentials are Ready for Phonons There has been an ongoing race for the past several years to develop the best universal machinelearning interatomic potential. This progress has led to increasingly accurate models for predictingenergy, forces, and stresses, combining innovative architectures with big data. Here, we benchmarkthese models on their ability to predict harmonic phonon properties, which are critical for under-standing the vibrational and thermal behavior of materials. Using around 10 000 ab initio phononcalculations, we evaluate model performance across various phonon-related parameters to test theuniversal applicability of these models. The results reveal that some models achieve high accuracyin predicting harmonic phonon properties. However, others still exhibit substantial inaccuracies,even if they excel in the prediction of the energy and the forces for materials close to dynamicalequilibrium. These findings highlight the importance of considering phonon-related properties inthe development of universal machine learning interatomic potentials.",Arxiv
+19,Tokamak disruption prediction using different machine learning techniques,Joost Croonen,"Jorge Amaya,Giovanni Lapenta",2020-05-11T14:29:30Z,http://arxiv.org/abs/2005.05139v1,"Tokamak disruption prediction using different machine learning techniques Disruption prediction and mitigation is of key importance in the development of sustainable tokamakreactors. Machine learning has become a key tool in this endeavour. In this paper multiple machinelearning models will be tested and compared. A particular focus has been placed on their portability.This describes how easily the models can be used with data from new devices. The methods used inthis paper are support vector machine, 2-tiered support vector machine, random forest, gradient boostedtrees and long-short term memory. The results show that the support vector machine performanceis marginally better among the standard models, while the gradient boosted trees performed the worst.The portable variant of each model had lower performance. Random forest obtained the highest portableperformance. Results also suggest that disruptions can be detected as early as 600ms before the event.An analysis of the computational cost showed all models run in less than 1ms, allowing sufficient timefor disruption mitigation.",Arxiv
+20,Temperature dependence of (111) and (110) ceria surface energy,A. S. Kholtobina,"A. Forslund,A. V. Ruban,B. Johansson,N. V. Skorodumova",2023-01-14T06:17:37Z,http://arxiv.org/abs/2301.05827v1,"Temperature dependence of (111) and (110) ceria surface energy High temperature properties of ceria surfaces are important for many applications. Here we report the temperature dependences of surface energy for the (111) and (110) CeO2 obtained in the framework of the extended two-stage upsampled thermodynamic integration using Langevin dynamics (TU-TILD). The method was used together with machinelearning potentials called moment tensor potentials (MTPs), which were fitted to the results of the ab initio MD calculations for (111) and (110) CeO2 at different temperatures. The parameters of MTPs training and fitting were tested and the optimal algorithm for the ceria systems was proposed. We found that the temperature increases from 0 K to 2100 K led to the decrease of the Helmholtz free energy of (111) CeO2 from 0.78 J/m2 to 0.64 J/m2. The energy of (110) CeO2 dropped from 1.19 J/m2 at 0 K to 0.92 J/m2 at 1800 K. We show that it is important to take anharmonicity into account as simple consideration of volume expansion gives wrong temperature dependences of the surface energies.",Arxiv
